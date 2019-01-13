@@ -53,7 +53,7 @@ This will commit all changes and push the topicA branch to GitHub
 Pull from GitHub:
 Git Command:
 $ git pull origin topicA
-This will commit all changes and push the topicA branch to GitHub
+This will pull all changes on topicA form GitHUb
 ```
 When work on topicA is done it is time to merge it with develop
 ### Merge the topic branch in to develop
