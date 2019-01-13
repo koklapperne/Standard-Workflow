@@ -1,1 +1,3 @@
 This is the textfile of the project.
+** topicA **
+We are now ready to work on topicA. Here we will just add some text and merge it with develop
