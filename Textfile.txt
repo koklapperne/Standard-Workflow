@@ -1,3 +1,7 @@
 This is the textfile of the project.
 ** topicA **
-We are now ready to work on topicA. Here we will just add some text and merge it with develop
+We are now ready to work on topicA. Here we will just add some text and merge it with develop.
+** topicB **
+We are now ready to work on topicB. It is important to merge from develop into topicB before starting work.
+If this is not done the work done in topicA is not visible in topicB. IPORTANT: this means that this workflow
+does not allow for simultanious work on the the same files but only allows sequentiel work. 
