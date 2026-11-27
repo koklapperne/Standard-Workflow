@@ -29,14 +29,14 @@ Example:
 $ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial/Standard-Workflow"
 $ git pull
 ```
-## Create master branch
+## Create repository from scratch if needed
 ```
-Go to the local repository.
-Create a master repository.
+Do this first time only to create a new repository from scratch. 
+Create a local repository.
 Create a remote repository on GitHub and Push the local repository to the remote repository. 
 Create the readmefile on GitHub and pull it to the local repository. 
 ```
-## Create develop branch
+## Create develop branch if needed
 ```
 Git Command:
 $ git branch develop
@@ -52,14 +52,13 @@ Git Command:
 $ git branch topicA
 This will create a new branch called: topicA
 ```
-Change to the new branch.
+Change to the new branch topicA
 ```
 Git Command:
 $ git checkout topicA
 This will change to the branch called: topicA
 ```
-## You can now update the textfile on your computer. You can push and pull files from the 
-topic branch to and from GitHub as you like.
+## You can push and pull files from the topic branch
 ```
 Push to GitHub:
 Git Command:
@@ -67,46 +66,43 @@ $ git add -A
 $ Commit -m "Comment"
 $ git push origin topicA
 This will commit all changes and push the topicA branch to GitHub
-```
-```
 Pull from GitHub:
 Git Command:
 $ git pull origin topicA
 This will pull all changes on topicA form GitHUb
 ```
-When work on topicA is done it is time to merge it with develop
 ## Merge the topic branch in to develop
 ```
 Git Command:
 $ git checkout develop
 $ git merge topicA
 $ git add -A
-$ Commit "First merge of topicA"
+$ Commit "Merge of topicA"
 $ git push origin develop
 This will merge the topicA branch with the develop branch and push develop to GitHub. 
 ```
-When development of topicA is complete you ready to merge from development in to master
-## Merge to the master branch
+## Merge deveop to the master branch
 ```
+When development of topicA is complete you ready to merge from development in to master
 Git Command:
 $ git checkout master
 $ git merge develop
 $ git add -A
 $ commit -m "comment"
 $ git push origin master
-```
 The master branch now contains the all the work done in topicA
-## Work on topicB
-To start work on topic you create it an merge the content from development. IMPORTANT this contains all the work done on topicA!
 ```
+## Work on topicB
+```
+To start work on topicB you create it an merge the content from development. IMPORTANT this contains all the work done on topicA!
 Git Command:
 $ git checkout development
 $ git pull origin development
 $ git branch topicB
 $ git checkout topicB
 $ git merge development
-This will pull the development branch from GitHub, create the topicB branch and merge the topicB branch with develop.
+This will pull the development branch from GitHub, create the topicB branch and merge the develop branch with topicB.
 ```
-You can now update the textfile on your computer. You can push and pull files from the 
-topic branch to and from GitHub as you like in same was as with topicA
-
+Merge to develop and master branch
+```
+Complete the same steps as for topicA 
