@@ -94,7 +94,7 @@ The master branch now contains the all the work done in topicA
 ```
 ## Work on topicB
 ```
-To start work on topicB you create it an merge the content from development. IMPORTANT this contains all the work done on topicA!
+To start work on topicB you create it and merge the content from development. IMPORTANT this contains all the work done on topicA!
 Git Command:
 $ git checkout development
 $ git pull origin development
