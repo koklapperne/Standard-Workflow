@@ -46,7 +46,7 @@ $ Commit "First commit of the develop-branch"
 $ git push origin develop
 This will create a new branch under the master-branch called: develop, add all changes, commit all changes, create a remote branch on GittHub under the master-branch called: Develop
 ```
-## Work on topicA
+## Create branch topicA
 ```
 Git Command:
 $ git branch topicA
@@ -63,11 +63,10 @@ This will change to the branch called: topicA
 Push to GitHub:
 Git Command:
 $ git add -A
-$ Commit -m "Comment"
+$ git commit -m "Comment"
 $ git push origin topicA
 This will commit all changes and push the topicA branch to GitHub
 Pull from GitHub:
-Git Command:
 $ git pull origin topicA
 This will pull all changes on topicA form GitHUb
 ```
@@ -77,31 +76,40 @@ Git Command:
 $ git checkout develop
 $ git merge topicA
 $ git add -A
-$ Commit "Merge of topicA"
+$ git commit -m "Merge of topicA"
 $ git push origin develop
 This will merge the topicA branch with the develop branch and push develop to GitHub. 
 ```
-## Merge deveop to the master branch
+## Merge develop to the master branch
 ```
-When development of topicA is complete you ready to merge from development in to master
+When development of topicA is complete you ready to merge from develop in to master
 Git Command:
 $ git checkout master
 $ git merge develop
 $ git add -A
-$ commit -m "comment"
+$ git commit -m "comment"
 $ git push origin master
 The master branch now contains the all the work done in topicA
 ```
-## Work on topicB
+## Create branch topicB
 ```
-To start work on topicB you create it and merge the content from development. IMPORTANT this contains all the work done on topicA!
 Git Command:
-$ git checkout development
-$ git pull origin development
 $ git branch topicB
-$ git checkout topicB
-$ git merge development
-This will pull the development branch from GitHub, create the topicB branch and merge the develop branch with topicB.
+This will create a new branch called: topicA
+
+```
+## You can push and pull files from the topic branch
+```
+Push to GitHub:
+Git Command:
+$ git add -A
+$ git commit -m "Comment"
+$ git push origin topicB
+This will commit all changes and push the topicB branch to GitHub
+Pull from GitHub:
+$ git pull origin topicB
+This will pull all changes on the topicB branch from GitHUb
+
 ```
 Merge to develop and master branch
 ```
