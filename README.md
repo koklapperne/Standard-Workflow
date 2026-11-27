@@ -89,5 +89,5 @@ $ git merge development
 This will pull the development branch from GitHub, create the topicB branch and merge the topicB branch with develop.
 ```
 You can now update the textfile on your computer. You can push and pull files from the 
-topic branch to and from GitHub as you like in same was as with topicB
+topic branch to and from GitHub as you like in same was as with topicA
 
