@@ -10,6 +10,24 @@ Topic:
 This is where the actual work is done. When a topic has to be resolved, a topic branch is created from develop. 
 It is good practice to give it a name related to the topic. In this example the are three topic branches. IMPORTANT this workflow only allows for sequential 
 work on the individual branches NOT simultaneous work!
+
+```
+### Clone from the remote repository to the local repository
+Do this first time or if somthing has gone wrong in the local local repository
+```
+Example:
+$ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial/Standard-Workflow"
+At home:
+$ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial"
+$ git clone https://github.com/koklapperne/Standard-Workflow.git
+```
+### Pull from the remote repository to the local repository
+Do this before work begins in the local repository
+```
+Example:
+$ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial/Standard-Workflow"
+$ git pull
+```
 ### Create master branch
 ```
 Go to the local repository.
