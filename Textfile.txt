@@ -1,6 +1,7 @@
 This is the textfile of the project.
 ** topicA **
 We are now ready to work on topicA. Here we will just add some text and merge it with develop.
+Okay here we go. This is the edit done under topicA. Let us see if it works?
 ** topicB **
 We are now ready to work on topicB. It is important to merge from develop into topicB before starting work.
 If this is not done the work done in topicA is not visible in topicB. IPORTANT: this means that this workflow
