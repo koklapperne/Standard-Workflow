@@ -1,11 +1,14 @@
 This is the textfile of the project.
 ** topicA **
 We are now ready to work on topicA. Here we will just add some text and merge it with develop.
+Okay here we go. This is the edit done under topicA. Let us see if it works? Yes it seems to work. Here is some more work.
+This should work again.
 ** topicB **
 We are now ready to work on topicB. It is important to merge from develop into topicB before starting work.
 If this is not done the work done in topicA is not visible in topicB. IPORTANT: this means that this workflow
 does not allow for simultaneous work on the the same files but only allows sequential work.
-After one commit and push we wil do some more work on the file commit it and push it.
+After one commit and push we wil do some more work on the file commit it and push it. Okay now the changes from topicA is visible.
+Let us do some work and see if this works now. It should.
 ** topicC **
 We are now ready to work on topicC.
 This has been done in the topicC branch. Remember: sequential work only!
