@@ -1,4 +1,5 @@
 # Standard-Workflow
+```
 An introduction to simple three stage development
 ## Concept
 The idea of this workflow is to introduce a three step development process defined by a dedicated branch. 
@@ -12,7 +13,7 @@ It is good practice to give it a name related to the topic. In this example the 
 work on the individual branches NOT simultaneous work!
 
 ```
-### Clone from the remote repository to the local repository
+## Clone from the remote repository to the local repository
 Do this first time or if somthing has gone wrong in the local local repository
 ```
 Example:
@@ -21,21 +22,21 @@ At home:
 $ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial"
 $ git clone https://github.com/koklapperne/Standard-Workflow.git
 ```
-### Pull from the remote repository to the local repository
+## Pull from the remote repository to the local repository
 Do this before work begins in the local repository
 ```
 Example:
 $ cd "/C/Users/mnis0035/Desktop/Udvikling/GitTutorial/Standard-Workflow"
 $ git pull
 ```
-### Create master branch
+## Create master branch
 ```
 Go to the local repository.
 Create a master repository.
 Create a remote repository on GitHub and Push the local repository to the remote repository. 
 Create the readmefile on GitHub and pull it to the local repository. 
 ```
-### Create develop branch
+## Create develop branch
 ```
 Git Command:
 $ git branch develop
@@ -45,7 +46,7 @@ $ Commit "First commit of the develop-branch"
 $ git push origin develop
 This will create a new branch under the master-branch called: develop, add all changes, commit all changes, create a remote branch on GittHub under the master-branch called: Develop
 ```
-### Work on topicA
+## Work on topicA
 ```
 Git Command:
 $ git branch topicA
@@ -57,7 +58,7 @@ Git Command:
 $ git checkout topicA
 This will change to the branch called: topicA
 ```
-You can now update the textfile on your computer. You can push and pull files from the 
+## You can now update the textfile on your computer. You can push and pull files from the 
 topic branch to and from GitHub as you like.
 ```
 Push to GitHub:
@@ -74,7 +75,7 @@ $ git pull origin topicA
 This will pull all changes on topicA form GitHUb
 ```
 When work on topicA is done it is time to merge it with develop
-### Merge the topic branch in to develop
+## Merge the topic branch in to develop
 ```
 Git Command:
 $ git checkout develop
@@ -85,7 +86,7 @@ $ git push origin develop
 This will merge the topicA branch with the develop branch and push develop to GitHub. 
 ```
 When development of topicA is complete you ready to merge from development in to master
-### Merge to the master branch
+## Merge to the master branch
 ```
 Git Command:
 $ git checkout master
@@ -95,7 +96,7 @@ $ commit -m "comment"
 $ git push origin master
 ```
 The master branch now contains the all the work done in topicA
-### Work on topicB
+## Work on topicB
 To start work on topic you create it an merge the content from development. IMPORTANT this contains all the work done on topicA!
 ```
 Git Command:
